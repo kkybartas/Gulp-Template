@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import "general";
+@import "media";
+
+
+
+button:hover {
+background:#1e3e83; ;
+}
+
+
+header {
+  padding: 10px 30px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: sticky; 
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background: white;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.075);
+}
+
+.header {
+  font-size: 1.6em;
+  color: rgba(0, 0, 0, 0.678);
+  justify-self: left;
+}
+
+.signin {
+  width: 100px;
+  height: 50px;
+  font-size: 1.3em;
+  border-radius: 3px;
+  border-style: none; 
+  background: #3a78fc;
+  color: white;
+  cursor: pointer;
+  justify-self: right;
+}
+
+.main {
+  background-size: cover;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.349)), url('https://www.kinesis.ie/gfx/layout/kinesis-screen-advice-bg-masthead.jpg');
+  height: 740px;
+  width: 100%;
+  padding: 1em;
+  padding-top: 150px;
+  font-size: 1.56em;
+  text-align: center;
+  justify-content: center;
+  background-position: 50% 75%;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  font-size: 1em;
+  display: block;
+  margin-top: 60px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 20px;
+}
+
+.signup {
+  width: 100%;
+  height: 60px;
+  font-size: 1em;
+  display: block;
+  margin-top: 8px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 10px;  
+  background: #3a78fc;
+  color: white;
+  cursor: pointer;
+}
+
+.intro {
+  text-align: center;
+  margin: 30px 20px;
+  display: inline;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+
+.introh1 {
+  margin-bottom: 20px;
+}
+
+div>i {
+  transform: scale(5);
+  margin: 80px;
+  color: #3a78fc;
+}
+
+p {
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+.content{
+  background: white;
+  padding-bottom: 50px;
+  position: relative;
+  
+}
+
+.maincontent {
+  width: 100%;
+  height: 1100px;
+}
+
+.maincontent>img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.description {
+  padding: 50px;
+  text-align: left;
+  display: block;
+  line-height: 2.2em;
+}
+
+.description>h1 {
+  padding-right: 50px;
+  font-size: 5vh;
+}
+
+.bottom {
+  text-align: center;
+  width: auto;
+  display: inline-block;
+  gap: 50px;
+  padding: 0 20px 0 20px;
+  margin-bottom: 200px;
+}
+
+.reviews>p{
+  font-size: 1.3em;
+  padding-bottom: 30px;
+}
+
+.wpas {
+  margin: 100px 20px 20px 20px;
+  font-size: 2.2em;
+}
+
+.reviews>img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 0 5px 5px grey;
+}
+
+.main2{
+  background-size: cover;
+  color: white;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.349)), url('https://www.kinesis.ie/gfx/layout/kinesis-screen-advice-bg-masthead.jpg');
+  
+  height: 600px;
+  width: 100%;
+  padding: 1em;
+  padding-top: 150px;
+  font-size: 1.56em;
+  text-align: center;
+  justify-content: center;
+}
+
+nav{
+  margin: 100px 20px;
+  text-align: center;
+}
+
+nav>.links>li {
+  font-size: 1.2em;
+  color: #3a78fc;
+  list-style: none;
+  display: inline;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #4382fc;
+
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+span {
+  color: black;
+  padding: 10px;
+}
+
+h3 {
+  padding: 20px;
+  color: rgba(128, 128, 128, 0.712);
+  font-size: 1em;
+}
+
+.fa-brands{
+  font-size: 2em;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+  margin: 0;
+}
+
+.fa-brands:hover {  
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+
+
+
+
+
+
+
+
+
+
